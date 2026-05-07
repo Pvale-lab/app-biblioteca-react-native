@@ -4,10 +4,13 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import HomeScreen from './screens/HomeScreen';
 import EditScreen from './screens/EditScreen';
 
+
+// Agora, 'Stack' contém os componentes '.Navigator' e '.Screen'
 const Stack = createNativeStackNavigator();
 
 export default function App() {
   return (
+    
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Home">
         <Stack.Screen 
